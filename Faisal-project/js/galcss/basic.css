@@ -1,0 +1,16 @@
+div#page {
+	width: 900px;
+	background-color: #fff;
+	float:left;
+	text-align: left;
+	 margin-left: -14px;
+	 padding-top:20px;
+	 padding-bottom:20px;
+}
+div#container {
+	padding: 20px;
+}
+div#ads {
+	clear: both;
+	padding: 12px 0 12px 66px;
+}

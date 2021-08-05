@@ -1,0 +1,11 @@
+<?php
+	include("../includes/config.php");
+	include("../includes/classes/db.php");
+	include("includes/classes/auth.php");
+	include("includes/classes/navigation-menu.php");
+	$section="Preferences";
+	$a->authenticate();
+	$page_title="Index";
+	$go_back_link='no';
+	header("location:categories.php")
+?>
